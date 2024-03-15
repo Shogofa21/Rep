@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:Shogofa21/Shogofa21.github.io.git
+	branch = main
