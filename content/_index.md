@@ -62,27 +62,26 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Teaching 
+          company: Trust In Edication
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          company_logo: 
+          location: Afghanistan
+          date_start: '2019-08-01'
+          date_end: '2021-05-23'
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Teaching 
+            
+        - title: Web Development Services
+          company: Kateb
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: 
+          location: Afghanistan
+          date_start: '2020-02-01'
+          date_end: '2021-02-01'
+      
     design:
       columns: '2'
   - block: accomplishments
@@ -98,33 +97,25 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.Stepik.org
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2019-01-01'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          icon: Stepik
+          organization: RUDN
+          organization_url: https://www.stepik.org
+          title: Figma
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: https://www.rudn.ru
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
+          date_start: '2024-02-13'
+          description:
+          icon: 
+          organization: RUDN
           organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
+          title: Web Design
           url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+       
     design:
       columns: '2'
   - block: collection
